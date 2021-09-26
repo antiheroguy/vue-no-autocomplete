@@ -1,6 +1,6 @@
 {
   "name": "vue-no-autocomplete",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue no autocomplete directive",
   "main": "dist/main.js",
   "author": "Mr. Hero",
