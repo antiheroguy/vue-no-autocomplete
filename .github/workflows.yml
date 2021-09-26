@@ -1,0 +1,30 @@
+name: Auto publish to NPM
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.release.target_commitish }}
+      - name: Use Node.js 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - run: yarn
+      - run: git config --global user.name "Github Action"
+      - run: git config --global user.email "vndhero@gmail.com"
+      - run: npm version ${{ github.event.release.tag_name }}
+      - run: yarn build
+      - run: npm config set '//registry.npmjs.org/:_authToken' "${{ secrets.NPM_TOKEN }}"
+      - run: npm publish --tag ${{ github.event.release.target_commitish }}
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: git push
+        env:
+          github-token: ${{ secrets.GITHUB_TOKEN }}

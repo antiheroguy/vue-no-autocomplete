@@ -24,6 +24,6 @@ Vue.use(NoAutocomplete)
 
 ## Usage
 ```
-<input type="text" name="email v-no-autocomplete />
+<input type="text" name="email" v-no-autocomplete />
 <input type="password" name="password" v-no-autocomplete />
 ```
