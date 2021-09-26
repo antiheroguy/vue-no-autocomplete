@@ -1,6 +1,6 @@
 {
   "name": "vue-no-autocomplete",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue no autocomplete directive",
   "main": "dist/main.js",
   "author": "Mr. Hero",
@@ -17,9 +17,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "build": "webpack"
   },
