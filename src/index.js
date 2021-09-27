@@ -9,7 +9,7 @@ export function install(Vue) {
       const isDisabled = el.disabled
       el.disabled = true
 
-      element.style.backgroundColor = 'inherit'
+      el.style.backgroundColor = 'inherit'
 
       setTimeout(() => {
         el.disabled = isDisabled

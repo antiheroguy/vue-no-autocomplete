@@ -14,15 +14,13 @@ Or with Yarn:
 yarn add vue-no-autocomplete
 ```
 
-## Setup for Nuxt
+## Usage
 ```
 import Vue from 'vue'
-import NoAutocomplete from 'vue-no-autocomplete'
+import NoAutoComplete from 'vue-no-autocomplete'
 
-Vue.use(NoAutocomplete)
+Vue.use(NoAutoComplete)
 ```
-
-## Usage
 ```
 <input type="text" name="email" v-no-autocomplete />
 <input type="password" name="password" v-no-autocomplete />
