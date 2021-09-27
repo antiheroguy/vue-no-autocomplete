@@ -1,25 +1,18 @@
-export function install(Vue) {
-  if (install.installed) {
-    return
-  }
-  install.installed = true
-
-  Vue.directive('no-autocomplete', {
-    bind(el, { value }) {
-      const isDisabled = el.disabled
-      el.disabled = true
-
-      el.style.backgroundColor = 'inherit'
-
-      setTimeout(() => {
-        el.disabled = isDisabled
-      }, 1000)
-    }
-  })
-}
-
 const plugin = {
-  install
+  install(Vue) {
+    Vue.directive('no-autocomplete', {
+      bind(el, { value }) {
+        const isDisabled = el.disabled
+        el.disabled = true
+
+        el.style.backgroundColor = 'inherit'
+
+        setTimeout(() => {
+          el.disabled = isDisabled
+        }, 1000)
+      }
+    })
+  }
 }
 
 let globalVue = null
