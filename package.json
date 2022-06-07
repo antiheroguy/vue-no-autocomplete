@@ -1,14 +1,14 @@
 {
   "name": "vue-no-autocomplete",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Vue no autocomplete directive",
   "main": "dist/main.js",
   "author": "Mr. Hero",
   "license": "MIT",
-  "repository": "https://github.com/thomasdeluck/vue-no-autocomplete",
-  "homepage": "https://github.com/thomasdeluck/vue-no-autocomplete#readme",
+  "repository": "https://github.com/averylongtips/vue-no-autocomplete",
+  "homepage": "https://github.com/averylongtips/vue-no-autocomplete#readme",
   "bugs": {
-    "url": "https://github.com/thomasdeluck/vue-no-autocomplete/issues"
+    "url": "https://github.com/averylongtips/vue-no-autocomplete/issues"
   },
   "keywords": [
     "Vue",
