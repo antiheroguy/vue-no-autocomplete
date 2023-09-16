@@ -1,6 +1,6 @@
-[![Latest Stable Version](https://img.shields.io/npm/v/vue-no-autocomplete)](https://github.com/averylongtips/vue-no-autocomplete)
-[![Total Download](https://img.shields.io/npm/dt/vue-no-autocomplete)](https://github.com/averylongtips/vue-no-autocomplete)
-[![License](https://img.shields.io/npm/l/vue-no-autocomplete)](https://packagist.org/packages/averylongtips/code-generator)
+[![Latest Stable Version](https://img.shields.io/npm/v/vue-no-autocomplete)](https://github.com/antiheroguy/vue-no-autocomplete)
+[![Total Download](https://img.shields.io/npm/dt/vue-no-autocomplete)](https://github.com/antiheroguy/vue-no-autocomplete)
+[![License](https://img.shields.io/npm/l/vue-no-autocomplete)](https://packagist.org/packages/antiheroguy/code-generator)
 
 # Disable autocomplete directive for Vue
 

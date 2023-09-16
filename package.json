@@ -5,10 +5,10 @@
   "main": "dist/main.js",
   "author": "Mr. Hero",
   "license": "MIT",
-  "repository": "https://github.com/averylongtips/vue-no-autocomplete",
-  "homepage": "https://github.com/averylongtips/vue-no-autocomplete#readme",
+  "repository": "https://github.com/antiheroguy/vue-no-autocomplete",
+  "homepage": "https://github.com/antiheroguy/vue-no-autocomplete#readme",
   "bugs": {
-    "url": "https://github.com/averylongtips/vue-no-autocomplete/issues"
+    "url": "https://github.com/antiheroguy/vue-no-autocomplete/issues"
   },
   "keywords": [
     "Vue",
